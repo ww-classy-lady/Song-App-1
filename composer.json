@@ -1,0 +1,27 @@
+{
+    "name": "wendy/project1",
+    "description": "find songs based on lyrics given from user.",
+    "type": "library",
+    "require": {
+        "jwilsson/spotify-web-api-php": "^5.6",
+        "symfony/http-client": "^6.2",
+        "nyholm/psr7": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wendy\\Project1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wendy Wu",
+            "email": "96844488+ww-classy-lady@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+      
+}
